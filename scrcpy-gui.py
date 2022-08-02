@@ -15,7 +15,7 @@ def make_window(layout):
 
 def make_empty_db_data():
     return {
-        "startWithScreenOff": False,
+        "startWithScreenOff": True,
         "keepAwake": True,
         "alwaysOnTop": False,
         "disconnectDebugger" : True,
